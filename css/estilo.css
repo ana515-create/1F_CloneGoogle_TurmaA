@@ -1,15 +1,49 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'roboto' sans-serif;
 
 }
 
 
 
 body {
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+
     font-style: normal;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  header{
+    height: 60px;
+
+
+  }
+
+  .main {
+    flex-grow: 1;
+
+  }
+
+  .footer{
+    color: #6B7682;
+    background: #2F2F;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+    font-size: 18px;
+    padding-left: 18px;
+    display: flex
+    align-items:center
+    
+    
+    
+
+
 
   }
